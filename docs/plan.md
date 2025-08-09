@@ -25,6 +25,7 @@ Este guia descreve os passos necessários para criar o serviço **Rota Médica A
 5. **Protótipo de frontend**
    - Criar páginas principais do módulo Alemanha reutilizando componentes do Medicinahub.
    - Consumir APIs simuladas para validar fluxo, navegação e UX com dados mockados.
+   - Protótipo inclui navegação entre informações, flashcards, questões e formulário de anamnese.
 
 6. **IA e treinamento de fala**
    - Integrar serviço de reconhecimento de fala para feedback automatizado.
