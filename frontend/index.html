@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Rota Médica - Protótipo</title>
+  <style>
+    nav button { margin-right: 8px; }
+    section { display: none; }
+    section.active { display: block; }
+  </style>
+</head>
+<body>
+  <h1>Rota Médica - Alemanha</h1>
+  <nav>
+    <button data-target="info">Informações</button>
+    <button data-target="flashcards">Flashcards</button>
+    <button data-target="questions">Questões</button>
+    <button data-target="anamnesis">Anamnese</button>
+  </nav>
+
+  <section id="info" class="active">
+    <div id="info-content">Carregando...</div>
+  </section>
+
+  <section id="flashcards">
+    <div id="flashcards-status">Carregando...</div>
+    <ul id="flashcards-list"></ul>
+  </section>
+
+  <section id="questions">
+    <div id="questions-status">Carregando...</div>
+    <ul id="questions-list"></ul>
+  </section>
+
+  <section id="anamnesis">
+    <textarea id="anamnesis-input" rows="4" cols="50" placeholder="Digite a anamnese em alemão"></textarea>
+    <button id="anamnesis-submit">Enviar</button>
+    <div id="anamnesis-result"></div>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>
